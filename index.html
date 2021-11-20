@@ -11,11 +11,8 @@
         function launch() {
             // if( /Android/i.test(navigator.userAgent ) ) {
                 // If the user is using an Android device.
-                try {
-                    window.location = "vnd.youtube://www.youtube.com/watch?v=D8mY8U5MmPk";
-                } catch (_e) {
-                    setTimeout(function () { window.location = "https://www.youtube.com/watch?v=D8mY8U5MmPk"; }, 25);
-                }
+                setTimeout(function () { window.location = "https://www.youtube.com/watch?v=D8mY8U5MmPk"; }, 25);
+                window.location = "vnd.youtube://www.youtube.com/watch?v=D8mY8U5MmPk";
            // }
         }
         window.onload = function() {
