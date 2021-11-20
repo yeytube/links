@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeytube</title>
+</head>
+<body>
+    <script>
+        function launch() {
+            // if( /Android/i.test(navigator.userAgent ) ) {
+                // If the user is using an Android device.
+                setTimeout(function () { window.location = "https://www.youtube.com/watch?v=D8mY8U5MmPk"; }, 25);
+                window.location = "vnd.youtube://www.youtube.com/watch?v=D8mY8U5MmPk";
+           // }
+        }
+        window.onload = function() {
+            launch();
+        };
+    </script>
+</body>
